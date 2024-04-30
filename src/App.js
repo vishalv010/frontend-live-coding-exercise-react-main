@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {QUESTIONS} from "./questions";
+import { MyForm } from "./components/MyForm";
 
 class App extends Component {
   state = {
@@ -10,9 +10,7 @@ class App extends Component {
     return (
       <div className="main__wrap">
         <main className="container">
-          <div>
-            TODO
-          </div>
+            <MyForm />
         </main>
       </div>
     );
